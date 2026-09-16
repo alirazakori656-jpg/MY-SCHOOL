@@ -1,0 +1,10 @@
+@media print {
+  .sidebar, .topbar, .no-print, .btn, .modal, .toast-wrap, .sidebar-backdrop {
+    display: none !important;
+  }
+  .main { margin-left: 0 !important; }
+  .page-content { padding: 0; }
+  body { background: #fff; }
+  .card-soft, .stat-card { box-shadow: none; border: 1px solid #ddd; }
+  a { text-decoration: none; color: #000; }
+}
